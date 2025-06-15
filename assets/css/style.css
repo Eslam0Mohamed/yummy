@@ -352,6 +352,3 @@ background-color: #000;
   100% {transform: rotate(360deg) translate(30px)
 }
 }
-.sidebar-item:last-child{
-  color: #198754;
-}
