@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoummy</title>
+  <!-- ^========|> Favicon  -->
+  <link rel="icon" href="./assets/imgs/logo.png" />
+  <!-- ^========|> Lora Font  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet" />
+  <!-- *========|> Font awesome library -->
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+  <!-- *========|> Bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <!-- *========|> Main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body data-bs-theme="dark">
+
+  <div class="sidebar-container">
+    <div class="left-side">
+      <div class="links">
+        <ul>
+          <li onclick="showSerachContainer(); closeSideBar()" class="sidebar-item"><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+          <li onclick="getCategories(); closeSideBar()" class="sidebar-item"><i class="fa-solid fa-layer-group"></i> Categories</li>
+          <li onclick="getAreas(); closeSideBar()" class="sidebar-item"><i class="fa-solid fa-house"></i> Area</li>
+          <li onclick="getIngrediants(); closeSideBar()" class="sidebar-item"><i class="fa-solid fa-list"></i> Ingrediants</li>
+          <li onclick="contactUs() ;loading(); closeSideBar()" class="sidebar-item"><i class="fa-solid fa-envelope"></i> Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <div class="icon">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-solid fa-globe"></i>
+        </div>
+        <footer>
+          <p>Copyright Â© 2019 All Rights <br> Reserved.</p>
+        </footer>
+      </div>
+
+    </div>
+    <div class="right-side ">
+<img src="assets/imgs/logo.png" alt="logo of Yoummy">
+<span><i class="fa-solid fa-bars bars"></i></span>
+<div class="right-side-icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-solid fa-globe"></i>
+</div>
+    </div>
+  </div>
+  <main>
+    <div class="loading d-none"><span class="loader"></span>
+
+</div>
+    <div class="container py-5 px-3">
+      <div class="row ">
+        
+
+      </div>
+    </div>
+
+    <div class="search-container container">
+
+
+
+
+
+</div>
+    </div>
+  </main> 
+   <!-- ?========|> sweat alert Js file -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./assets/js/jquery-3.7.1.min.js"></script>
+  <!-- ?========|> Boostrap Js file -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <!-- ?========|> Main Js File -->
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
